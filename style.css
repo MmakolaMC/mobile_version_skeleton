@@ -1,0 +1,145 @@
+/* Import necessary fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Crete+Round|Poppins');
+
+/* Header styling */
+.header {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
+}
+
+.header .toolbar {
+  width: 327px;
+  height: 48px;
+  margin: 0;
+  padding: 0 24px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .toolbar .name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header .toolbar .name a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .toolbar .menu {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header .toolbar .menu img {
+  padding: 7px 4px;
+}
+
+/* Headline styling */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 327px;
+  height: 350px;
+  left: 0;
+  top: 92px;
+  background: #1c1a19;
+  background-image: url('images/Illustration.png');
+  background-position: right 225px;
+  background-repeat: no-repeat;
+}
+
+.headline .heading_1 {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  margin: 0;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline .heading_2 {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.headline .content {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.headline .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 11.01px;
+  width: 200px;
+  height: 40px;
+  list-style: none;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.headline .socials .social a {
+  color: #fff;
+  font-size: 20px;
+}
