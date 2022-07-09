@@ -313,20 +313,20 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
-  width: 124px;
+  width: 100px;
+  height: 24px;
   height: 48px;
   background: #ff6b00;
   flex: none;
   order: 3;
   flex-grow: 0;
-  border: none;
   margin: 0;
+  text-decoration: none;
 }
 
 .project {
-  width: 100px;
-  height: 24px;
+  width: 124px;
+  height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700px;
@@ -340,7 +340,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  text-decoration: none;
+  border: none;
 }
 
 .works .card {
@@ -478,34 +478,34 @@ body {
 
 .about_me .about .btn {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 12px;
   gap: 10px;
   width: 161px;
-  height: 48px;
+  height: 24px;
   background: #ff6b00;
   flex: none;
   order: 2;
   flex-grow: 0;
-  border: none;
+  text-decoration: none;
   margin: 0;
 }
 
 .about_me .about .btn .resume {
-  width: 137px;
-  height: 24px;
+  width: 161px;
+  height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  text-decoration: none;
+  border: none;
+  padding: 12px;
 }
 
 .about_me .skill {
@@ -567,14 +567,14 @@ body {
   font-size: 22px;
   line-height: 43px;
   height: 24px;
-  padding: 12px 0px;
+  padding: 12px 0;
 }
 
 ._35 {
   width: 225.46px;
   height: 281.46px;
   order: 0;
- }
+}
 
 ._30 {
   width: 201.46px;
