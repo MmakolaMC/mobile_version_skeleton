@@ -313,10 +313,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100px;
-  height: 24px;
-  height: 48px;
-  background: #ff6b00;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -325,8 +321,6 @@ body {
 }
 
 .project {
-  width: 124px;
-  height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700px;
@@ -411,9 +405,10 @@ body {
 }
 
 .works .card .action {
-  width: 327px;
+  width: 315px;
   height: 48px;
   margin: 0;
+  padding: 0 12px 0 0;
   display: flex;
   justify-content: center;
   background: #ff6b00;
@@ -482,7 +477,6 @@ body {
   gap: 10px;
   width: 161px;
   height: 24px;
-  background: #ff6b00;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -490,7 +484,7 @@ body {
   margin: 0;
 }
 
-.about_me .about .btn .resume {
+.resume {
   width: 161px;
   height: 48px;
   font-family: 'Inter', sans-serif;
@@ -644,6 +638,13 @@ body {
 }
 
 /* all buttons */
+button {
+  background: #ff6b00;
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+}
+
 button:disabled {
   background: #f4f1f0;
   color: grey;
